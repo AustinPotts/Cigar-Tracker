@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		4572311A2425943900A315E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457231192425943900A315E2 /* AppDelegate.swift */; };
 		4572311C2425943900A315E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572311B2425943900A315E2 /* SceneDelegate.swift */; };
-		4572311E2425943900A315E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572311D2425943900A315E2 /* ViewController.swift */; };
 		457231212425943900A315E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4572311F2425943900A315E2 /* Main.storyboard */; };
 		457231232425943900A315E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457231222425943900A315E2 /* Assets.xcassets */; };
 		457231262425943900A315E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457231242425943900A315E2 /* LaunchScreen.storyboard */; };
+		45DAD4DB243059A300A646DE /* AddExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4DA243059A300A646DE /* AddExperienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		457231162425943900A315E2 /* Cigar-Tracker-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cigar-Tracker-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		457231192425943900A315E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4572311B2425943900A315E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4572311D2425943900A315E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		457231202425943900A315E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		457231222425943900A315E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		457231252425943900A315E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		457231272425943900A315E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DAD4DA243059A300A646DE /* AddExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExperienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		457231182425943900A315E2 /* Cigar-Tracker-Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				45DAD4D92430598A00A646DE /* View Controllers */,
 				457231192425943900A315E2 /* AppDelegate.swift */,
 				4572311B2425943900A315E2 /* SceneDelegate.swift */,
-				4572311D2425943900A315E2 /* ViewController.swift */,
 				4572311F2425943900A315E2 /* Main.storyboard */,
 				457231222425943900A315E2 /* Assets.xcassets */,
 				457231242425943900A315E2 /* LaunchScreen.storyboard */,
 				457231272425943900A315E2 /* Info.plist */,
 			);
 			path = "Cigar-Tracker-Xcode";
+			sourceTree = "<group>";
+		};
+		45DAD4D92430598A00A646DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD4DA243059A300A646DE /* AddExperienceViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4572311E2425943900A315E2 /* ViewController.swift in Sources */,
 				4572311A2425943900A315E2 /* AppDelegate.swift in Sources */,
+				45DAD4DB243059A300A646DE /* AddExperienceViewController.swift in Sources */,
 				4572311C2425943900A315E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
